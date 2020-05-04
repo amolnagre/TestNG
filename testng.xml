@@ -1,0 +1,66 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning - Tsys">
+
+ 
+<test name="LaunchBrowser">
+    <classes>
+        <class name="FBTest" ></class>  
+    </classes>
+</test>
+
+<!--
+<test name="Capture Screen test">
+    <classes>
+        <class name="Test2" ></class>  
+    </classes>
+</test>
+
+ 
+<test name="Parameter test">
+    <classes>
+        <class name="TestNG_Parameters" ></class>  
+    </classes>
+</test>
+
+ -->
+
+
+  <!--  
+ <groups>
+    <run>
+      <include name="low"/>
+    </run>
+  </groups>
+-->
+<!--  
+ <groups>
+    <run>
+      <include name="high"/>
+    </run>
+  </groups>
+-->
+<!-- 
+<test name="Group 1">
+ 
+<groups>
+    <run>
+      <include name="med"/>
+    </run>
+  </groups>
+  
+    <classes>
+        <class name="TestGroup1" ></class>  
+    </classes>
+</test>
+
+<test name="Group 2">
+    <classes>
+        <class name="TestGroup2" ></class>  
+    </classes>
+</test>
+
+ -->
+
+
+
+</suite>
